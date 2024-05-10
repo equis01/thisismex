@@ -14,7 +14,7 @@ a{
 }
 
 a:hover{
-  color: #8332AB;
+  color: #3269AB;
 }
 
 .wrapper{
@@ -41,7 +41,7 @@ a:hover{
 }
 
 .btn:before{
-  content: "FOLLOW US";
+  content: "FOLLOW ME";
   font-family: "Poppins", sans-serif;
   position: absolute;
   left: 50%;
@@ -56,12 +56,12 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #8332AB;
+  background: #3269AB;
   transition: all 0.5s ease;
 }
 
 .btn:hover{
-  background: #FFF
+  background: #BFFFE4
 }
 
 .btn:hover:before{
