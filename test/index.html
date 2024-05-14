@@ -27,41 +27,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap"
               rel="stylesheet">
-    <style>
-            /* Pegar aquí el código CSS del loader */
-            .circle {
-                width:50px;
-                height:25px;
-                border:2px solid #fff;
-                position:absolute;
-                left:50%;
-                top:50%;
-                transform:translate(-50%,50%);
-                animation:rotate 4s infinite;
-                transition:2s;
-            }
-    
-            @keyframes rotate {
-                0% {
-                    transform:rotate(180deg);
-                    background:#fff;
-                }
-              
-                20% {
-                    transform:rotate(-180deg);
-                    background:#eee;
-                }
-              
-                40% {
-                    transform:rotate(180deg);
-                    background:#fff;
-                }
-              
-                100% {
-                    transform:rotate(-90deg);
-                }
-            }
-        </style>
         
         <style>
         body,html{
@@ -430,9 +395,39 @@
                             min-height: 60px;
                     }
 
-        
+        .circle {
+            width:50px;
+            height:25px;
+            border:2px solid #fff;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,50%);
+            animation:rotate 4s infinite;
+            transition:2s;
+        }
 
-        
+        @keyframes rotate {
+            0% {
+                transform:rotate(180deg);
+                background:#fff;
+            }
+          
+            20% {
+                transform:rotate(-180deg);
+                background:#eee;
+            }
+          
+            40% {
+                transform:rotate(180deg);
+                background:#fff;
+            }
+          
+            100% {
+                transform:rotate(-90deg);
+            }
+        }       
+      
     </style>
     <style>
             </style>
