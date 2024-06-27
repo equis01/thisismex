@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var password = document.getElementById('password').value;
   
   // Hacer una solicitud POST al script de Google Apps Script
-  var url = 'https://script.google.com/macros/s/AKfycbyS8DOaLq1uWaFeVDduF0XG1huisZrZzhKbt-CQpn3NGXK7rykIqOJ2zrdGlOsU7cj2/exec';
+  var url = 'https://script.google.com/macros/s/AKfycbxOlTBr5B57ehzwa0c3Ju2j98LnOv8XjXuo-HX5imTl3QSZzHSMhzqPUDm6duQGHF8/exec';
   var formData = new FormData();
   formData.append('username', username);
   formData.append('password', password);
